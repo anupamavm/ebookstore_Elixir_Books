@@ -12,9 +12,7 @@ namespace ebookstore.Models
         public string bookLanguage { get; set; }
         public string bookDescription { get; set; }
 
-        [ForeignKey("Author")]
-        public int AuthorId { get; set; }
-        public virtual Author Author { get; set; }
+       
 
     }
 }
